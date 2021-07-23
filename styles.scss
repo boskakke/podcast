@@ -1,0 +1,54 @@
+:root {
+	--height: 5rem;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.container {
+	display: flex;
+	gap: 1px;
+	align-items: center;
+}
+
+.bar {
+	background: orange;
+	display: block;
+	width: 3px;
+	border-radius: 3px;
+	
+
+	&--1 {
+		height: calc(var(--height) * .1);
+	}
+	&--2 {
+		height: calc(var(--height) * .15);
+	}
+	&--3 {
+		height: calc(var(--height) * .2);
+	}
+	&--4 {
+		height: calc(var(--height) * .25);
+	}
+	&--5 {
+		height: calc(var(--height) * .3);
+	}
+	&--6 {
+		height: calc(var(--height) * .35);
+	}
+	&--7 {
+		height: calc(var(--height) * .4);
+	}
+	&--8 {
+		height: calc(var(--height) * .45);
+	}
+	&--9 {
+		height: calc(var(--height) * .5);
+	}
+	&--10 {
+		height:  calc(var(--height) * 55);
+	}
+	
+}
